@@ -1,0 +1,8 @@
+defaultNamespace: longhorn-system
+
+labels:
+  app: longhorn-jobs
+
+# Custom helm options
+helm:
+  releaseName: longhorn-jobs
