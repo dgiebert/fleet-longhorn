@@ -1,0 +1,8 @@
+defaultNamespace: longhorn-system
+
+labels:
+  app: longhorn-prerequisites
+
+# Custom helm options
+helm:
+  releaseName: longhorn-prerequisites
