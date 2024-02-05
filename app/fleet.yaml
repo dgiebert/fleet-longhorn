@@ -14,7 +14,6 @@ helm:
     networkPolicies:
       enabled: true
     defaultSettings:
-      defaultDataPath: "/srv/longhorn"
       priorityClass: system-node-critical
       allowVolumeCreationWithDegradedAvailability: false
       concurrentAutomaticEngineUpgradePerNodeLimit: 3
