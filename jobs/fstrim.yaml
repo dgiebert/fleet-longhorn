@@ -1,0 +1,12 @@
+apiVersion: longhorn.io/v1beta1
+kind: RecurringJob
+metadata:
+  name: snapshots
+  namespace: longhorn-system
+spec:
+  cron: "0 1 * * *"
+  task: "filesystem-trim"
+  groups:
+  - default
+  concurrency: 2
+  retain: 1
