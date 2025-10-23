@@ -9,7 +9,7 @@ helm:
   releaseName: longhorn
   chart: longhorn
   repo: https://charts.rancher.io
-  version: 106.3.0+up1.9.1
+  version: 107.1.1+up1.9.2
   values:
     networkPolicies:
       enabled: true
@@ -24,6 +24,7 @@ helm:
       upgradeChecker: false
       # Detect Hard Disk Errors more often
       snapshotDataIntegrityCronjob: "30 1 * * *"
+      defaultDataPath: "/var/lib/rancher/longhorn/"
 
 dependsOn:
   - selector:
