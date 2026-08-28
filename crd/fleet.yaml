@@ -8,7 +8,7 @@ helm:
   releaseName: longhorn-crd
   chart: longhorn-crd
   repo: https://charts.rancher.io
-  version: 107.1.1+up1.9.2
+  version: 109.3.2+up1.11.3
 
 # https://longhorn.io/docs/1.8.0/deploy/install/install-with-fleet/#installing-longhorn
 diff:
