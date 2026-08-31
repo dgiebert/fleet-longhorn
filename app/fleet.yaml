@@ -9,7 +9,7 @@ helm:
   releaseName: longhorn
   chart: longhorn
   repo: https://charts.rancher.io
-  version: 107.1.1+up1.9.2
+  version: 110.1.0+up1.12.1
   values:
     networkPolicies:
       enabled: true
